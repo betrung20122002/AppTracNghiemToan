@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KienThuc.C4DaiSo"
+    android:background="@color/cam">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="657dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:textColor="@color/colorItem3End"
+                android:text="1. Phần thực và phần ảo của số phức, số phức liên hợp."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/bai41"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:textColor="@color/colorItem3End"
+                android:text="2. Số phức bằng nhau"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/b42"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:textColor="@color/colorItem3End"
+                android:text="3. Biểu diễn hình học của số phức, mô đun của số phức."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="164dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/b433"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:onClick="dahieu"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Đọc xong"
+        android:textStyle="bold"
+        android:background="#03A9F4"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="6dp" />
+</RelativeLayout>

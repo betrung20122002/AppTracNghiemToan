@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KienThuc.C1Hinhhoc"
+    android:background="@color/cam">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="657dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:textColor="@color/colorItem3End"
+                android:text="1.KHỐI LĂNG TRỤ VÀ KHỐI CHÓP"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/hinhhocc1"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:textColor="@color/colorItem3End"
+                android:text="2.KHÁI NIỆM VỀ HÌNH ĐA DIỆN VÀ KHỐI ĐA DIỆN"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/hinhhocc2"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:textColor="@color/colorItem3End"
+                android:text="3.HAI ĐA DIỆN BẰNG NHAU"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.1. Phép dời hình trong không gianTrong không gian, quy tắc đặt tương ứng mỗi điểm Mvới điểm M'xác định duy nhất được gọi là một phép biến hình trong không gian.Phép biến hình trong không gian được gọi là phép dời hình nếu nó bảo toàn khoảng cách giữa hai điểm tùy ý.
+                3.1.1.Phép tịnh tiến theo vectơ"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/ok1"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/ok2"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:onClick="dahieu"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Đọc xong"
+        android:textStyle="bold"
+        android:background="#03A9F4"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="6dp" />
+</RelativeLayout>
